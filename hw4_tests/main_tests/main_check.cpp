@@ -61,6 +61,7 @@ TEST(hw4Test, addToListTest) {
     if (HasFailure()) {
         points -= 15;
         cerr << "addToListTest has failed" << endl;
+        cout << "Current POINTS:" << currentPoints << endl;
     } else {
         currentPoints += 15;
         cout << "Current POINTS:" << currentPoints << endl;
@@ -86,6 +87,7 @@ TEST(hw4Test, copyConstructorTest) {
     if (HasFailure()) {
         points -= 10;
         cerr << "copyConstructorTest has failed" << endl;
+        cout << "Current POINTS:" << currentPoints << endl;
     } else {
         currentPoints += 10;
         cout << "Current POINTS:" << currentPoints << endl;
@@ -105,6 +107,7 @@ TEST(hw4Test, emptyTest) {
     if (HasFailure()) {
         points -= 5;
         cerr << "emptyTest has failed" << endl;
+        cout << "Current POINTS:" << currentPoints << endl;
     } else {
         currentPoints += 5;
         cout << "Current POINTS:" << currentPoints << endl;
@@ -124,6 +127,7 @@ TEST(hw4Test, sizeTest) {
     if (HasFailure()) {
         points -= 5;
         cerr << "sizeTest has failed" << endl;
+        cout << "Current POINTS:" << currentPoints << endl;
     }
     else {
         currentPoints += 5;
@@ -148,6 +152,7 @@ TEST(hw4Test, removeTest) {
     if (HasFailure()) {
         points -= 5;
         cerr << "removeTest has failed" << endl;
+        cout << "Current POINTS:" << currentPoints << endl;
     }
     else {
         currentPoints += 5;
@@ -174,6 +179,7 @@ TEST(hw4Test, containsTest) {
     if (HasFailure()) {
         points -= 5;
         cerr << "containsTest has failed" << endl;
+        cout << "Current POINTS:" << currentPoints << endl;
     }
     else {
         currentPoints += 5;
@@ -201,6 +207,7 @@ TEST(hw4Test, getFrequencyTest) {
     if (HasFailure()) {
         points -= 5;
         cerr << "getFrequencyTest has failed" << endl;
+        cout << "Current POINTS:" << currentPoints << endl;
     }
     else {
         currentPoints += 5;
@@ -235,6 +242,7 @@ TEST(hw4Test, headTest) {
     if (HasFailure()) {
         points -= 15;
         cerr << "headTest has failed" << endl;
+        cout << "Current POINTS:" << currentPoints << endl;
     }
     else {
         currentPoints += 15;
@@ -267,6 +275,7 @@ TEST(hw4Test, tailTest) {
     if (HasFailure()) {
         points -= 15;
         cerr << "tailTest has failed" << endl;
+        cout << "Current POINTS:" << currentPoints << endl;
     }
     else {
         currentPoints += 15;
@@ -307,6 +316,8 @@ TEST(hw4Test, midTest) {
     if (HasFailure()) {
         points -= 20;
         cerr << "midTest has failed" << endl;
+        cout << "Current POINTS:" << currentPoints << endl;
+        cout << "FINAL POINTS:" << points << endl;
     } else {
         currentPoints += 20;
         cout << "Current POINTS:" << currentPoints << endl;
