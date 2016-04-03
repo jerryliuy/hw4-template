@@ -1,6 +1,6 @@
 #HW4 Sorted Doubly Linked List 
 
-#First-Name Last-Name
+#Jerry Liu
 
 TODO - Update your name in this readme.
 
